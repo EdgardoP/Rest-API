@@ -1,0 +1,17 @@
+expedientes.js 
+----------------------------------------------------------------------------
+GET /api/v1/expedientes/
+POST /api/v1/expedientes/new
+    {
+        identidad,
+        fecha(YYYYMMDD),
+        descripcion,
+        observacion,
+        registros 0,
+        ultimaActualizacion (YYYYMMDD HH:MI:SS) 
+    }   
+En v1.js incluir expedientes
+
+Crear request en ThunderClient o Postman
+
+Subir screenshot de codigo y rar del proyecto (sin carpeta node_modules).
