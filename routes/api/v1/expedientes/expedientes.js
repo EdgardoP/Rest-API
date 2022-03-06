@@ -89,5 +89,3 @@ router.delete('/delete/:id', async(req, res) => {
 
 
 module.exports = router;
-
-let { persona, edad, cantidad, correo } = {“ persona”: 1, “edad”: 10, cantidad: ”50”, telefono: ”Indefinido” };
